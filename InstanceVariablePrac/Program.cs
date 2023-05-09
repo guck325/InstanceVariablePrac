@@ -26,6 +26,12 @@ namespace InstanceVariablePrac
             Console.WriteLine(product1.name+"/"+product1.price); //이 코드는 마음에 들면 안된다.. 
             Console.WriteLine(product1);
             //Console.WriteLine(Product1.origin); 자바에서는 가능
+
+            List<Student> list = new List<Student>(); //student가 들어간 리스트 생성?
+            list.Add(new Student() { name = "곽경희", grade = 3 });
+            list.Add(new Student() { name = "권하은", grade = 2 });
+            list.Add(new Student() { name = "김선혜", grade = 1 });
+
         }
     }
 }
