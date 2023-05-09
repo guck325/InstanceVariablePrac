@@ -10,7 +10,12 @@ namespace InstanceVariablePrac
     {
         static void Main(string[] args)
         {
-            Product product = new Product();
+            //자바 스타일
+            Product product1 = new Product();
+            product1.name = "감자";
+            product1.price = 2000;
+           
+
         }
     }
 }
