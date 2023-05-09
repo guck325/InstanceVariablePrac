@@ -20,8 +20,12 @@ namespace InstanceVariablePrac
             Product product3 = new Product() { name = "옥수수" };
             Product product4 = new Product() { price = 999999 };
             Product product5 = new Product() { price = 7777, name = "비트" };
-            
 
+            //클래스 변수 출력
+            Console.WriteLine(Product.origin);
+            Console.WriteLine(product1.name+"/"+product1.price); //이 코드는 마음에 들면 안된다.. 
+            Console.WriteLine(product1);
+            //Console.WriteLine(Product1.origin); 자바에서는 가능
         }
     }
 }
